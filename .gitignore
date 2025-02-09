@@ -4,3 +4,9 @@
 *.ptx
 *.cubin
 *.fatbin
+*.o
+*.out
+a.out
+.vscode/ipch/
+.vscode/.browse.vc.db*
+

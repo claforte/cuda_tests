@@ -10,3 +10,5 @@ a.out
 .vscode/ipch/
 .vscode/.browse.vc.db*
 
+pmpp/ch01/vector_add
+pmpp/ch02/matmul1

@@ -3,22 +3,13 @@
     "configurations": [
         {
             "name": "CUDA C++: Debug",
-            "type": "cuda-gdb",  // Changed from lldb to cuda-gdb
+            "type": "cuda-gdb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false,
-            "MIMode": "cuda-gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
             "preLaunchTask": "build CUDA",
             "miDebuggerPath": "/usr/bin/cuda-gdb"  // Uses cuda-gdb from PATH
         }
